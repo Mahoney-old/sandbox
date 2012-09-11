@@ -19,7 +19,15 @@
   <distributionManagement>
     <site>
       <id>www.yourcompany.com</id>
-      <url>scp://www.yourcompany.com/www/docs/project/</url>
+      <url>file:///tmp/sandbox/</url>
     </site>
   </distributionManagement>
+
+  <url>http://projects.lidalia.org.uk/sandbox/</url>
+
+  <scm>
+    <url>https://github.com/Mahoney/sandbox</url>
+    <connection>scm:git:git@github.com:Mahoney/sandbox.git</connection>
+    <developerConnection>scm:git:git@github.com:Mahoney/sandbox.git</developerConnection>
+  </scm>
 </project>

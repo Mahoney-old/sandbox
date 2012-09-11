@@ -4,17 +4,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-      <groupId>uk.org.lidalia</groupId>
-      <artifactId>lidalia-jvm-library</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-    </parent>
-    <artifactId>module1</artifactId>
+  <parent>
+    <groupId>sandbox</groupId>
+    <artifactId>sandbox</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
 
-  <distributionManagement>
-    <site>
-      <id>www.yourcompany.com</id>
-      <url>scp://www.yourcompany.com/www/docs/project/</url>
-    </site>
-  </distributionManagement>
+  <artifactId>module1</artifactId>
+
+  <name>Module 1</name>
+
+  <dependencies>
+    <!-- Testing -->
+    <dependency>
+      <groupId>uk.org.lidalia</groupId>
+      <artifactId>lidalia-test-dependencies</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <type>pom</type>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
