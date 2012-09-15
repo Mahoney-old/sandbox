@@ -3,7 +3,7 @@
 
   <parent>
     <groupId>uk.org.lidalia</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>opensource-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <groupId>sandbox</groupId>
@@ -15,19 +15,4 @@
     <module>module1</module>
     <module>module2</module>
   </modules>
-
-  <distributionManagement>
-    <site>
-      <id>www.yourcompany.com</id>
-      <url>file:///tmp/sandbox/</url>
-    </site>
-  </distributionManagement>
-
-  <url>http://projects.lidalia.org.uk/sandbox/</url>
-
-  <scm>
-    <url>https://github.com/Mahoney/sandbox</url>
-    <connection>scm:git:git@github.com:Mahoney/sandbox.git</connection>
-    <developerConnection>scm:git:git@github.com:Mahoney/sandbox.git</developerConnection>
-  </scm>
 </project>
